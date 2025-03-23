@@ -1,6 +1,17 @@
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import SignUp from './pages/SignUp';
+import LogIn from './pages/LogIn';
+
 function App() {
   return (
-    <div className="text-red-500 text-2xl">Hello World</div>
+    <div>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/signup' element={<SignUp />} />
+        <Route path='/login' element={<LogIn />} />
+      </Routes>
+    </div>
   )
 }
 
