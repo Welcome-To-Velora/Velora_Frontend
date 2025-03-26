@@ -52,8 +52,7 @@ const LoginPage = () => {
             console.log("Login successful:", response.data);
             toast.success("Login successful!");
 
-            // Redirect to the dashboard or home page after successful login
-            navigate("/dashboard"); // Redirects to the dashboard page (you can adjust this as per your app's routing)
+            navigate("/"); 
         } catch (error) {
             console.error("Login failed:", error.response?.data || error.message);
             toast.error(error.response?.data?.message || "Login failed. Please try again.");

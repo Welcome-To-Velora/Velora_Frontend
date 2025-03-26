@@ -1,0 +1,62 @@
+/* Hero Section */
+.hero-section {
+    background-color: #304B75;
+    clip-path: polygon(0 0, 100% 0, 100% 79%, 0% 100%);
+    padding: 50px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+/* Hero Title */
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Circles Container */
+.circles-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; 
+    position: relative;
+}
+
+/* Circles */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-small {
+    width: 80px;
+    height: 80px;
+    background-color: #E2A03F;
+    top: 70px; 
+    left: 1px; 
+    transform: translate(-50%, -50%);
+}
+
+.circle-medium {
+    width: 110px;
+    height: 110px;
+    background-color: #B55A30;
+    top: 130px; 
+    right: 10px; 
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.circle-large {
+    width: 150px;
+    height: 150px;
+    background-color: #2C5F2D;
+    top: 90px; 
+    right: 40px;
+    transform: translate(-50%, -50%);
+}
