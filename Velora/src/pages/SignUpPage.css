@@ -111,8 +111,8 @@
 
 /* ==================RESPONSIVE DESIGN======================*/
 
-/* Small Phones (320px - 480px) */
-@media (max-width: 480px) {
+/* Small Phones (320px) */
+@media (max-width: 320px) {
     .field-title {
         font-size: 2.5rem;
         top: 3%;
